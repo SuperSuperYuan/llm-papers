@@ -6,7 +6,7 @@
 
 | 论文 | 年份 | 笔记 | 一句话总结 |
 |------|------|------|-----------|
-| _待添加_ | | | |
+| [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) | 2019 | [笔记](2019-the-bitter-lesson.md) | 能随算力扩展的通用方法（搜索与学习）终将胜过依赖人类知识的方法 |
 
 ---
 
