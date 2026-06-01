@@ -6,6 +6,7 @@
 
 | 主题 | 说明 |
 |------|------|
+| [里程碑](milestone/) | 奠定方向的经典与里程碑式工作：思想源头、范式转折点、开创性论文 |
 | [预训练与基础模型](pretraining/) | Scaling laws、预训练数据与方法、基座模型（GPT/LLaMA/Qwen 等） |
 | [对齐与微调](alignment/) | SFT、RLHF、DPO、指令微调、偏好优化 |
 | [推理与思维链](reasoning/) | Chain-of-Thought、自一致性、推理时计算、数学与代码推理 |
