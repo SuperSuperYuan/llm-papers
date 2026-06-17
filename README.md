@@ -14,6 +14,7 @@
 | [高效化](efficiency/) | 量化、蒸馏、剪枝、推理加速、MoE、长上下文优化 |
 | [多模态](multimodal/) | 视觉-语言模型、图文/音视频理解与生成 |
 | [检索增强](retrieval/) | RAG、向量检索、知识注入、长文档问答 |
+| [推荐系统](recsys/) | 生成式推荐、序列推荐、召回/排序、用户行为建模、推荐中的推理 |
 | [模型架构](architecture/) | Transformer 变体、注意力机制、状态空间模型、新型架构 |
 | [评测与基准](evaluation/) | Benchmark、评测方法、LLM-as-judge、能力测量 |
 | [安全与可解释性](safety/) | 对抗攻击、越狱、幻觉、可解释性、red-teaming |
