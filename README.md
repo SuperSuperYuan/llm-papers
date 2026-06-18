@@ -2,6 +2,24 @@
 
 大语言模型（LLM）相关论文的阅读笔记与收藏，按研究主题分类整理。
 
+## ⭐ 专题：快手 OneRec 生成式推荐谱系
+
+一条完整的演进主线——**从端到端生成取代级联，到把推理变成推荐的核心能力**：
+
+```
+OneRec ──▶ OneRec-Think ──▶ OpenOneRec ──▶ OneReason
+奠基/端到端    引入显式推理     开源基座+评测    系统激活推理
+```
+
+| 论文 | 年份 | 定位 |
+|------|------|------|
+| [OneRec](recsys/2025-onerec.md) | 2025.06 | 端到端生成式取代多级级联管线，线上承接 25% 流量、成本降至 ~10.6% |
+| [OneRec-Think](recsys/2025-onerec-think.md) | 2025.10 | 引入显式文本推理（in-text reasoning），可解释/可控 |
+| [OpenOneRec](recsys/2025-openonerec.md) | 2025.12 | 开源基座（1.7B/8B）+ RecIF-Bench + 9600 万交互数据 |
+| [OneReason](recsys/2026-onereason.md) | 2026.06 | 诊断「加思考为何无效」，以感知/认知为支点、三阶段激活推理 |
+
+> 完整笔记与互链见 [推荐系统](recsys/) 主题。
+
 ## 🗂️ 主题分类
 
 | 主题 | 说明 |
