@@ -13,6 +13,10 @@
 | [Language Agent Tree Search (LATS)](https://arxiv.org/abs/2310.04406) | 2023 | [笔记](2023-lats.md) | 把 MCTS 引入 language agent，统一推理/行动/规划，LLM 兼任行动者与价值评估 |
 | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | 2023 | [笔记](2023-generative-agents.md) | 斯坦福小镇：记忆流 + recency/importance/relevance 检索 + 反思 + 规划，涌现拟人社会行为 |
 | [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) | 2023 | [笔记](2023-memgpt.md) | OS 式分层记忆：主/外部上下文 + 函数调用换页 + 中断，突破上下文窗口做长期记忆 |
+| [Survey: The Rise and Potential of LLM Based Agents](https://arxiv.org/abs/2309.07864) | 2023 | [笔记](2023-survey-rise-of-agents.md) | 综述：brain-perception-action 框架 + 单/多/人-agent 场景 + agent 社会（~86 页全景） |
+| [Survey: A Survey on LLM-based Autonomous Agents](https://arxiv.org/abs/2308.11432) | 2023 | [笔记](2023-survey-autonomous-agents.md) | 综述：Profile/Memory/Planning/Action 构建框架 + 应用 + 评测方法 |
+| [Anthropic: Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) | 2024 | [笔记](2024-building-effective-agents.md) | 工程指南：workflow vs agent、从简单做起别过早上多 agent、5 种 workflow 模式 |
+| [Anthropic: Multi-Agent Research System](https://www.anthropic.com/engineering/built-multi-agent-research-system) | 2025 | [笔记](2025-anthropic-multi-agent-research.md) | 工程实践：orchestrator-worker 落地，多 agent +90% 效果但 15× token，及评测/可靠性教训 |
 
 ---
 
