@@ -20,6 +20,37 @@ OneRec ──▶ OneRec-Think ──▶ OpenOneRec ──▶ OneReason
 
 > 完整笔记与互链见 [推荐系统](recsys/) 主题。
 
+## ⭐ 专题：Agent 学习路径
+
+从建立全局观到工程落地的推荐阅读顺序——先读综述铺地图，再沿「范式 → 工具 / 搜索 / 记忆 三分支 → 工程实践」深入：
+
+```
+① 综述建全局
+        │
+        ▼
+② 范式底座   CoT ──▶ ReAct ──▶ Plan-and-Solve
+        │
+        ├──▶ 🔧 工具/编排   Toolformer ──▶ LLMCompiler
+        │
+        ├──▶ 🌳 推理/搜索   ToT ──▶ GoT ──▶ LATS(MCTS)   ·  Self-Refine / Reflexion(反思)
+        │
+        └──▶ 🧠 记忆/长期   Generative Agents ──▶ MemGPT
+        │
+        ▼
+③ 工程实践   Building Effective Agents ──▶ Multi-Agent Research System
+```
+
+| 阶段 | 论文 | 读它的理由 |
+|------|------|-----------|
+| ① 综述 | [Rise of LLM Agents](agents/2023-survey-rise-of-agents.md) · [Survey on Autonomous Agents](agents/2023-survey-autonomous-agents.md) | 先建全局：brain-perception-action 与 Profile/Memory/Planning/Action 两套框架 |
+| ② 范式 | [CoT](reasoning/2022-chain-of-thought.md) · [ReAct](agents/2022-react.md) · [Plan-and-Solve](reasoning/2023-plan-and-solve.md) | 推理 + 行动交替，几乎所有 agent 的底层范式 |
+| 🔧 工具 | [Toolformer](agents/2023-toolformer.md) · [LLMCompiler](agents/2023-llm-compiler.md) | 从「自学调用工具」到「并行编排工具」 |
+| 🌳 搜索 | [ToT](reasoning/2023-tree-of-thoughts.md) · [GoT](reasoning/2023-graph-of-thoughts.md) · [LATS](agents/2023-lats.md) · [Self-Refine](reasoning/2023-self-refine.md) · [Reflexion](agents/2023-reflexion.md) | 推理拓扑（链→树→图）+ MCTS 搜索 + 自我反思 |
+| 🧠 记忆 | [Generative Agents](agents/2023-generative-agents.md) · [MemGPT](agents/2023-memgpt.md) | 记忆流/反思（认知层）+ OS 式上下文调度（系统层） |
+| ③ 工程 | [Building Effective Agents](agents/2024-building-effective-agents.md) · [Multi-Agent Research System](agents/2025-anthropic-multi-agent-research.md) | Anthropic 实战：何时别上多 agent，何时该上、怎么落地 |
+
+> 完整笔记与互链见 [智能体与工具使用](agents/) 与 [推理与思维链](reasoning/) 主题。
+
 ## 🗂️ 主题分类
 
 | 主题 | 说明 |
