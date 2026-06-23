@@ -11,6 +11,8 @@
 | [An LLM Compiler for Parallel Function Calling](https://arxiv.org/abs/2312.04511) | 2023 | [笔记](2023-llm-compiler.md) | 编译器思想编排工具调用：Planner 生成可并行 DAG，并发执行，较 ReAct 最高 3.7× 加速、6.7× 降本 |
 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | 2023 | [笔记](2023-reflexion.md) | 语言化反思 + 情景记忆替代权重更新，跨 trial 积累经验自我改进（HumanEval 91% pass@1） |
 | [Language Agent Tree Search (LATS)](https://arxiv.org/abs/2310.04406) | 2023 | [笔记](2023-lats.md) | 把 MCTS 引入 language agent，统一推理/行动/规划，LLM 兼任行动者与价值评估 |
+| [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | 2023 | [笔记](2023-generative-agents.md) | 斯坦福小镇：记忆流 + recency/importance/relevance 检索 + 反思 + 规划，涌现拟人社会行为 |
+| [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560) | 2023 | [笔记](2023-memgpt.md) | OS 式分层记忆：主/外部上下文 + 函数调用换页 + 中断，突破上下文窗口做长期记忆 |
 
 ---
 
