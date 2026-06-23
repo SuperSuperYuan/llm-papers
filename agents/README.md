@@ -8,6 +8,7 @@
 |------|------|------|-----------|
 | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | 2022 | [笔记](2022-react.md) | 推理与行动交替（思考→行动→观察循环），LLM 调用外部工具的底层 agent 范式 |
 | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) | 2023 | [笔记](2023-toolformer.md) | 自监督让模型自学调用工具：采样 API 调用、按「是否降低预测损失」筛选后微调 |
+| [An LLM Compiler for Parallel Function Calling](https://arxiv.org/abs/2312.04511) | 2023 | [笔记](2023-llm-compiler.md) | 编译器思想编排工具调用：Planner 生成可并行 DAG，并发执行，较 ReAct 最高 3.7× 加速、6.7× 降本 |
 
 ---
 
